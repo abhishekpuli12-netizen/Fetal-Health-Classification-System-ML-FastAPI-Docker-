@@ -44,7 +44,11 @@ fetal-health-classification/
 ├── notebooks/
 │   └── fetal_project.ipynb  # EDA + SHAP analysis
 │
-│
+│__plots/
+|    |___ROC-curve.png
+|    |___Waterfall_plot
+|    |___SHAP Summary Bar Plot
+|
 |__ train_pipeline.py    # Training pipeline   
 ├── Dockerfile
 ├── requirements.txt
